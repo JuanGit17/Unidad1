@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+	
+	struct Estudiante {
+		string nombre;
+		int edad;
+		float promedio;
+		
+	};
+
+	Estudiante alumno1;
+
+	alumno1.nombre = "Juan Perez";
+	alumno1.edad = 2;
+	alumno1.promedio = 6.5;
+
+	cout<<"El nombre del estudiante es: " <<alumno1.nombre<<endl;
+	cout<<"El nombre del estudiante es: " <<alumno1.edad<<endl;
+	cout<<"El nombre del estudiante es: " <<alumno1.promedio<<endl;
+	
+	return 0;
+}
